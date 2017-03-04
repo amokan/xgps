@@ -1,11 +1,9 @@
-alias Experimental.{GenStage}
-
 defmodule XGPS.Broadcaster do
   @moduledoc """
   Heavily inspired (almost a copy) from the GenEvent-replacement example from GenStage-repo at:
   https://github.com/elixir-lang/gen_stage
   """
-   use GenStage
+  use GenStage
 
    @doc """
   Starts the broadcaster.
